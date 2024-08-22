@@ -1,0 +1,61 @@
+# .NET Core files
+bin/
+obj/
+*.fsproj
+*.csproj
+
+# OCPP 2.0.1 protocol library files
+ocpp-library/
+
+# SQLite files
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Other files
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.xml
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+App_Data/
+
+#NuGet files
+*.nupkg
+
+# vs Code
+.vscode/
+.vs/
+
+#User files
+*.user
+*.userosscache
+
+#Env files
+.env
+
+#IDE settings
+.idea/
+*.iml
+
+# ChargingStationController
+Controllers/ChargingStationController.cs
+
+# ChargingStationService
+Services/ChargingStationService.cs
+
+# ChargingStationRepository
+DataAccess/ChargingStationRepository.cs
+
+# ChargingStationDBContext
+DataAccess/ChargingStationDBContext.cs
+
+# ChargingStation
+Models/ChargingStation.cs
